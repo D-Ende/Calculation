@@ -21,7 +21,14 @@ func main() {
 	exit := false
 	for exit == false {
 
-		fmt.Println("(M) Multiplication", "(S) Subtract", "(A) Addition", "(D) Division", "(K) Modulo", "(E) Exit", "\n Press the Button what you want to do!")
+		fmt.Println('
+			    (M) Multiplication
+			    (S) Subtract 
+			    (A) Addition 
+			    (D) Division
+			    (K) Modulo
+			    (E) Exit
+			    \n Press the Button what you want to do!')
 
 		var choice string
 		fmt.Scan(&choice)
